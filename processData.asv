@@ -1,0 +1,7 @@
+jointNum = 4;
+save('workspace/jointNum.mat');
+disp('обрабатываем лог-файл');
+loadData;
+disp('получаем левы и правые дуги');
+agregate;
+agregate2;
